@@ -18,7 +18,7 @@
     "deliveryDate": "2023-08-08",
     "products": [{}],
     "customer": {
-      "id": 1,
+      "id": 3,
       "name": "Daniel",
       "tier": 1
     }
@@ -30,7 +30,7 @@
     "deliveryDate": "2023-08-08",
     "products": [{}],
     "customer": {
-      "id": 1,
+      "id": 3,
       "name": "Daniel",
       "tier": 1
     }

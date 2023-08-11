@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ced02d36-19c0-49d4-81b5-1bee45d50d05" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Main1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mapping/dtos/OrderDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mapping/dtos/OrderDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mapping/mappers/OrderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mapping/mappers/OrderMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mapping/mappers/ProductoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mapping/mappers/ProductMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/repository/impl/OrderRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/impl/OrderRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/repository/impl/ProductRespositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/impl/ProductRespositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/servicesImpl/Impl/OrderServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/servicesImpl/Impl/OrderServiceImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/userSimulatedList.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/userSimulatedList.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/utils/Utils.java" beforeDir="false" />
-    </list>
+    <list default="true" id="ced02d36-19c0-49d4-81b5-1bee45d50d05" name="Changes" comment="commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,7 +76,7 @@
       <recent name="servicesImpl.Impl" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.ProductServiceImplTest.filteredBooks (1)">
     <configuration name="OrderServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="APIpruebasUnitarias" />
       <extension name="coverage">
@@ -121,17 +108,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderServiceImplTest.list3Lastes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TallerApiStreamMaven" />
+    <configuration name="OrderServiceImplTest.list3Lastes (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="APIpruebasUnitarias" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.service.impl.*" />
+          <option name="PATTERN" value="servicesImpl.Impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="org.example.service.impl.OrderServiceImplTest" />
+      <option name="PACKAGE_NAME" value="servicesImpl.Impl" />
+      <option name="MAIN_CLASS_NAME" value="servicesImpl.Impl.OrderServiceImplTest" />
       <option name="METHOD_NAME" value="list3Lastes" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductServiceImplTest.filteredBooks (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="APIpruebasUnitarias" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="servicesImpl.Impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="servicesImpl.Impl" />
+      <option name="MAIN_CLASS_NAME" value="servicesImpl.Impl.ProductServiceImplTest" />
+      <option name="METHOD_NAME" value="filteredBooks" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -155,10 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.OrderServiceImplTest" />
+        <item itemvalue="JUnit.ProductServiceImplTest.filteredBooks (1)" />
         <item itemvalue="JUnit.OrderServiceImplTest.getBaby" />
+        <item itemvalue="JUnit.OrderServiceImplTest.list3Lastes (1)" />
+        <item itemvalue="JUnit.OrderServiceImplTest" />
         <item itemvalue="JUnit.ProductServiceImplTest.filteredBooks" />
-        <item itemvalue="JUnit.OrderServiceImplTest.list3Lastes" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +176,7 @@
       <updated>1690978712689</updated>
       <workItem from="1690978713876" duration="6300000" />
       <workItem from="1691583481978" duration="15929000" />
-      <workItem from="1691729069901" duration="4854000" />
+      <workItem from="1691729069901" duration="5185000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1691715485424</created>
@@ -188,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691731384377</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="commit">
+      <created>1691734167483</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1691734167483</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
