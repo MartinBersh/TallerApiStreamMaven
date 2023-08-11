@@ -1,2 +1,4 @@
-package servicesImpl.Impl;public interface CustomerService {
+package servicesImpl;
+
+public interface CustomerService {
 }

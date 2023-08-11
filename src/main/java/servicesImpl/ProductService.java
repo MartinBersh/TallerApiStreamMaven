@@ -1,2 +1,4 @@
-package servicesImpl;public interface ProductService {
+package servicesImpl;
+
+public interface ProductService {
 }
