@@ -19,7 +19,7 @@ public class OrderMapper {
         return new Order(source.id(),
                 source.status(),
                 source.orderDate(),
-                source.delivery(),
+                source.deliveryDate(),
                 source.products(),
                 source.customer());
     }

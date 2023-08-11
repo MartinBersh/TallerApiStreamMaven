@@ -1,13 +1,11 @@
 package mapping.mappers;
 
-import domain.models.Customer;
 import domain.models.Product;
-import mapping.dtos.CustomerDto;
 import mapping.dtos.ProductDto;
 
 import java.util.List;
 
-public class ProductoMapper {
+public class ProductMapper {
 
     public static ProductDto mapFrom(Product source){
         return new ProductDto(source.getId(),

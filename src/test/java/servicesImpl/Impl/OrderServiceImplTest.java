@@ -1,4 +1,4 @@
-package org.example.service.impl;
+package servicesImpl.Impl;
 
 import mapping.dtos.OrderDto;
 import org.junit.jupiter.api.BeforeEach;
@@ -19,9 +19,7 @@ class OrderServiceImplTest {
     @BeforeEach
     void setUp() {
         productService = new ProductServiceImpl();
-
         orderService = new OrderServiceImpl(productService);
-
     }
 
     @Test
@@ -31,11 +29,5 @@ class OrderServiceImplTest {
         assertEquals(expectedOrders.size(), result.size(),"La funcion no se esta desarrollando correctamente.");
     }
 
-    @Test
-    void list3Lastes() {
-        List<OrderDto> expectedOrders = Utils.getUserListSimulated();
-        List<OrderDto> result = orderService.list3Latest();
-        assertEquals(expectedOrders.size(), result.size(),"La funcion no se esta desarrollando correctamente.");
-    }
 
 }

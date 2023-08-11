@@ -1,4 +1,3 @@
-package main;
 
 import servicesImpl.Impl.OrderServiceImpl;
 import servicesImpl.Impl.ProductServiceImpl;
@@ -8,7 +7,7 @@ import servicesImpl.ProductService;
 import java.util.*;
 import java.util.concurrent.CompletableFuture;
 
-public class Main1 {
+public class Main {
 
     private static ProductService productService;
     private static OrderService orderService;
@@ -32,7 +31,7 @@ public class Main1 {
                     " \n 5.  Mostrar la lista de productos de la categoría 'Libros' con los precios más bajos." +
                     " \n 6. Mostrar la lista de los 3 pedidos más recientes, basados en la fecha de la orden" +
                     " \n 7. Calcular la suma total de los pedidos realizados en una fecha específica." +
-                    " \n 8. Calcular el promedio de pago en los pedidos en una fecha determinada.\n" +
+                    " \n 8. Calcular el promedio de pago en los pedidos en una fecha determinada." +
                     " \n 9. Generar un mapa de datos con registros de pedidos agrupados por cliente." +
                     " \n 10. Identificar el producto más costoso en cada categoría." +
                     " \n 11. Realizar la implementación de un proceso asíncrono utilizando runAsync." +

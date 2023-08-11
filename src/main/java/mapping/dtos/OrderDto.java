@@ -9,7 +9,7 @@ import java.util.List;
 public record OrderDto(Long id,
                        String status,
                        LocalDate orderDate,
-                       LocalDate delivery,
+                       LocalDate deliveryDate,
                        List<Product> products,
                        Customer customer) {
 }
