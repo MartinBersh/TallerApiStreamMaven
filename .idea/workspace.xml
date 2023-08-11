@@ -4,20 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ced02d36-19c0-49d4-81b5-1bee45d50d05" name="Changes" comment="">
+    <list default="true" id="ced02d36-19c0-49d4-81b5-1bee45d50d05" name="Changes" comment="commit">
+      <change afterPath="$PROJECT_DIR$/src/main/Main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/servicesImpl/Impl/OrderServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/servicesImpl/Impl/ProductServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/servicesImpl/Impl/utils/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/userSimulatedList.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/utils/Utils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mapping/dtos/CustomerDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mapping/dtos/CustomerDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mapping/dtos/ProductDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mapping/dtos/ProductDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/mapping/mappers/CustomerMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mapping/mappers/CustomerMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/mapping/mappers/ProductoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mapping/mappers/ProductoMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/CustomerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/repository/ProductRespository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/ProductRespository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/repository/impl/CustomerRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/impl/CustomerRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/repository/impl/ProductRespositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/impl/ProductRespositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/impl/OrderRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/impl/OrderRepositoryImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/servicesImpl/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servicesImpl/CustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servicesImpl/Impl/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servicesImpl/Impl/CustomerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/servicesImpl/Impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servicesImpl/Impl/OrderServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/servicesImpl/Impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servicesImpl/Impl/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/servicesImpl/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servicesImpl/OrderService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/servicesImpl/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servicesImpl/ProductService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +33,8 @@
       <list>
         <option value="Record" />
         <option value="Interface" />
+        <option value="package.json" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -55,22 +60,77 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_directory_selection": "C:/Users/marti/OneDrive/Escritorio/Java/TallerApiStreamMaven/src/test/java/servicesImpl/Impl",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\marti\OneDrive\Escritorio\Java\TallerApiStreamMaven\src\test\java\resources" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="servicesImpl.Impl" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ProductServiceImplTest.filteredBooks">
+    <configuration name="OrderServiceImplTest.list3Lastes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TallerApiStreamMaven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="org.example.service.impl.OrderServiceImplTest" />
+      <option name="METHOD_NAME" value="list3Lastes" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductServiceImplTest.filteredBooks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TallerApiStreamMaven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="servicesImpl.Impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="servicesImpl.Impl" />
+      <option name="MAIN_CLASS_NAME" value="servicesImpl.Impl.ProductServiceImplTest" />
+      <option name="METHOD_NAME" value="filteredBooks" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ProductServiceImplTest.filteredBooks" />
+        <item itemvalue="JUnit.OrderServiceImplTest.list3Lastes" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -80,11 +140,24 @@
       <option name="presentableId" value="Default" />
       <updated>1690978712689</updated>
       <workItem from="1690978713876" duration="6300000" />
-      <workItem from="1691583481978" duration="5173000" />
+      <workItem from="1691583481978" duration="15929000" />
+      <workItem from="1691729069901" duration="2242000" />
     </task>
+    <task id="LOCAL-00001" summary="commit">
+      <created>1691715485424</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1691715485424</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
 </project>

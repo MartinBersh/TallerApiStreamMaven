@@ -26,5 +26,7 @@ public class ProductoMapper {
     public static List<ProductDto> mapFrom(List<Product> source) {
         return source.parallelStream().map(e-> mapFrom(e)).toList();
     }
-
+    public static List<Product> mapFromDto(List<ProductDto> source) {
+        return source.parallelStream().map(e-> mapFrom(e)).toList();
     }
+}
